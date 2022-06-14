@@ -1,4 +1,9 @@
-const getTheTitles = function() {
+const getTheTitles = function(a) {
+    let b =[];
+    for (let index = 0; index < a.length; index++) {
+        b[index] = a[index].title;
+        
+    }return b;
 
 };
 
